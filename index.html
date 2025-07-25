@@ -22,10 +22,12 @@
     <meta http-equiv="Content-Security-Policy" content="
     default-src 'self';
     script-src 'self' https://unpkg.com/;
+    style-src 'self' https://fonts.googleapis.com/ 'unsafe-inline'; /* 'unsafe-inline' added for inline styles */
+    font-src 'self' https://fonts.gstatic.com/;
     img-src 'self' data: https://*.lottiefiles.com/;
     connect-src 'self' https://*.lottiefiles.com/;
     frame-src 'self' https://tally.so/;
-">
+    ">
     <title>KliraStudio - Design Agency</title>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
