@@ -1,0 +1,43 @@
+/* --- KliraStudio background & top-left logo --- */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background:
+      linear-gradient(90deg,
+        rgba(254, 254, 49, 0.9) 0%,
+        rgba(254, 254, 49, 0.9) 100%);
+  }
+
+  /* decorative right-side image */
+  body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 37.5%;
+    height: 100%;
+    background: url('./assets/background.png') center/cover no-repeat;
+    z-index: -1;
+  }
+
+  /* gradient overlay over image */
+  body::before {
+    background:
+      linear-gradient(90deg,
+        rgba(254, 254, 49, 0.9) 0%,
+        rgba(254, 254, 49, 0.9) 62.5%,
+        rgba(0, 17, 15, 0.5) 62.5%,
+        rgba(0, 17, 15, 1) 100%);
+  }
+
+  /* logo top-left */
+  #top-logo {
+    position: fixed;
+    top: 24px;
+    left: 24px;
+    width: 170px;
+    height: 212px;
+    z-index: 1;
+  }

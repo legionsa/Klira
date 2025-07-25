@@ -1,0 +1,39 @@
+{
+  "name": "klirastudio-landing",
+  "version": "1.0.0",
+  "description": "KliraStudio Design Agency Landing Page",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'No build step required for static site'",
+    "dev": "npx live-server --port=3000 --open=/index.html",
+    "preview": "npx serve . -p 3000"
+  },
+  "keywords": [
+    "design-agency",
+    "landing-page",
+    "responsive",
+    "klirastudio",
+    "jakarta",
+    "indonesia"
+  ],
+  "author": "KliraStudio",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/klirastudio/landing-page.git"
+  },
+  "homepage": "https://klirastudio.netlify.app",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
