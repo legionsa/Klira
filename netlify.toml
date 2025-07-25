@@ -38,5 +38,5 @@
   for = "*.svg"
   [headers.values]
     Cache-Control = "public, max-age=31536000"
-     Content-Security-Policy = "script-src 'self' https://tally.so; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; frame-src https://tally.so;
+    
     
